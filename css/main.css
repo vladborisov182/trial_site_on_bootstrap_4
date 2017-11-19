@@ -1,0 +1,68 @@
+body {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+.text-black {
+    color: #000;
+}
+
+.devider {
+    border-color: #000000;
+    max-width: 90%;
+    border-width: 3px;
+}
+
+header {
+    background: url(../img/home-bg.jpg) no-repeat center top;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 650px;
+    width: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.header-padding-top {
+    padding-top: 230px;
+}
+
+footer {
+    background-color: #252227;
+}
+
+.titl {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    padding: 0 10px 0 10px;
+    color: white;
+}
+
+.titl:hover {
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+    color: #2E5FDB;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .header-padding-top {
+        padding-top: 140px;
+    }
+}
+
+
+
+
